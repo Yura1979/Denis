@@ -27,7 +27,7 @@ public class School {
     }
     public static void calculateFormula(int a, int b, int c){
         int d;
-        
+
         d = (b*b) - (4*a*c);
         System.out.println("d = " + d);
         if (d == 0) {
